@@ -47,6 +47,6 @@ Push ke `main` → **GitHub Actions** auto-lint `flake8 uts.py`
 **Status:** ✅ Dockerized ✅ Persistent Volume ✅ CI/CD Ready
 
 PUSH FINAL:
-git add README.md screenshots/
+git add README.md
 git commit -m "Add professional README"
 git push
