@@ -48,5 +48,5 @@ Push ke `main` → **GitHub Actions** auto-lint `flake8 uts.py`
 
 PUSH FINAL:
 git add README.md
-git commit -m "Add professional README"
+git commit -m "Add README"
 git push
