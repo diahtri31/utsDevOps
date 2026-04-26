@@ -1,4 +1,4 @@
-# 🛒 UTS MLOps - Analisis Penjualan Produk
+# 🛒 UTS DevOps - Analisis Penjualan Produk
 
 ## 📋 Deskripsi Proyek
 Aplikasi Data Science sederhana untuk **analisis penjualan toko**. Menggunakan **Pandas** menghitung:
