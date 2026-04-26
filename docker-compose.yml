@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    volumes:
+      - ./data:/app/data
+  checker:
+    image: alpine
+    volumes:
+      - ./data:/data
+    depends_on:
+      - app
