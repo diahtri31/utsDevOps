@@ -1,0 +1,16 @@
+---
+- name: Otomatisasi Pengisian Environment Data Science
+  hosts: staging_servers
+  gather_facts: false # Dimatikan karena Python belum ada di target saat awal start
+
+  tasks:
+    - name: Task 1 - Update apt dan Install Python3 via Raw Mode
+      raw: |
+        apt-get update && \
+        apt-get install -y python3 python3-pip
+      changed_when: true
+
+    - name: Task 2 - Install Library Pandas / Requirements via Pip Mode
+      pip:
+        name: pandas
+        extra_args: --break-system-packages
