@@ -18,6 +18,8 @@ Perintah yang digunakan untuk menginisialisasi dan membuat kontainer Docker:
 terraform init
 terraform apply -auto-approve
 
+---
+
 ### 2. Tahap Konfigurasi Server (Ansible)
 ansible-playbook -i inventory.ini playbook.yml
 
